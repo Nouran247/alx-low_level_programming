@@ -12,18 +12,18 @@
 
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 1; n <= 100; n++)
+	for (num = 1; num <= 100; num++)
 	{
-		if (n % 3 == 0 && !(n % 5 == 0))
+		if (num % 3 == 0 && !(num % 5 == 0))
 			printf("Fizz");
-		else if (n % 5 == 0 && !(num % 3 == 0))
+		else if (num % 5 == 0 && !(num % 3 == 0))
 			printf("Buzz");
-		else if (n % 3 == 0 && n % 5 == 0)
+		else if (num % 3 == 0 && num % 5 == 0)
 			printf("FizzBuzz");
 		else
-			printf("%d", n);
+			printf("%d", num);
 
 		if (n != 100)
 			printf(" ");
