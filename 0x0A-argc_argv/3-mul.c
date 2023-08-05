@@ -10,12 +10,13 @@
 
 int main(int argc, char *argv[])
 {
-	int mul;
+	int a, b;
 
-	if (argc == 3)
+	if (argc == 1)
 	{
-		mul = atio(argv[1]) * atoi(argv[2]);
-		printf("%d\n", mul);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
 	}
 	else
 	{
