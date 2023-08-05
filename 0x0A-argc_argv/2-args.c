@@ -4,12 +4,12 @@
  * main - prints all arguments it receives.
  * @argc: int
  * @argv: list
- * Raturn: 0
+ * Return: 0
 */
 
 int main(int argc, char const *argv[])
 {
-	int i = 0
+	int i = 0;
 
 	while (argc--)
 	{
