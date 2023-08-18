@@ -14,9 +14,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	int i = n;
 	va_list ap;
 
-	if (!n')
+	if (!n)
 	{
-		printf('\n');
+		printf("\n");
 		return;
 	}
 
